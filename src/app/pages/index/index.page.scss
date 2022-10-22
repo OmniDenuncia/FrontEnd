@@ -1,0 +1,35 @@
+
+
+.logo {
+    width:100% !important;
+    height : 100% !important;
+    max-width: 180px !important;  //any size
+    max-height: 180px !important; //any size
+    position: absolute;
+    margin: 5% 35%;
+    border: 16px solid rgb(52, 121, 186);
+}
+
+ion-content {
+  --background: #ffffff
+ /* --background: linear-gradient(180deg, rgba(0,170,255,1) 0%, rgba(0,163,255,1) 44%, rgba(181,228,255,1) 77%);*/
+}
+
+#botoes{
+  width: 260px;
+  height: 120px;
+  border: 1px solid red;
+  background-color: red;
+}
+
+
+ion-button   {
+  margin-top: 38%;
+  margin-left: 20%;
+  float: left;
+  --color: white;
+  --background: rgb(52, 121, 186);
+}
+
+
+

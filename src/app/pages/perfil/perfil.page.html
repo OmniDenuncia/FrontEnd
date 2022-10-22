@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    <ion-title>Cidadão</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+  <ion-grid>
+    <ion-row >
+      <ion-col size-md="6" offset-md="3" color="dark">
+        <ion-card color="dark">
+          <ion-card-header color="secondary">
+            <ion-card-title color="danger">Cadastrar Cidadão</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content color="dark">
+
+            <ion-item color="dark">
+              <ion-label position="floating">Nome:</ion-label>
+              <ion-input type="text" id="nomeUsuario"></ion-input>
+            </ion-item>
+
+            <ion-item color="dark">
+              <ion-label position="floating">Sobrenome:</ion-label>
+              <ion-input type="text" id="nomeUsuario"></ion-input>
+            </ion-item>
+
+            <ion-item color="dark">
+              <ion-label position="floating">CPF:</ion-label>
+              <ion-input type="text" id="celular"></ion-input>
+            </ion-item>
+
+            <ion-item color="dark">
+              <ion-label position="floating">E-Mail:</ion-label>
+              <ion-input type="text" id="email"></ion-input>
+            </ion-item>
+
+            <ion-item color="dark">
+              <ion-label position="floating">Celular:</ion-label>
+              <ion-input type="text" id="celular"></ion-input>
+            </ion-item>
+
+            <ion-item color="dark">
+              <ion-label position="floating">CEP:</ion-label>
+              <ion-input type="text" id="cep"></ion-input>
+            </ion-item>
+
+            <ion-item color="dark">
+              <ion-label position="floating">Digite a senha:</ion-label>
+              <ion-input type="password" id="senha"></ion-input>
+            </ion-item>
+
+            <ion-item color="dark">
+              <ion-label position="floating">Redigite sua senha:</ion-label>
+              <ion-input type="password" id="senha2"></ion-input>
+            </ion-item>
+
+
+          </ion-card-content>
+        </ion-card>
+        <ion-buttons>
+          <ion-button expand="full" shape="default" fill="solid" color="primary">Enviar</ion-button>
+          <ion-button expand="full" shape="default" fill="solid" color="danger">Cancelar</ion-button>
+          <ion-button></ion-button>
+      </ion-buttons>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
