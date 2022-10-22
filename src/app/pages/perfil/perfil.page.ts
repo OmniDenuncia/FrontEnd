@@ -1,3 +1,4 @@
+import { PerfilService, Tip } from './perfil.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./perfil.page.scss'],
 })
 export class PerfilPage implements OnInit {
-
-  constructor() { }
+  public tip!: string;
+  constructor(private perfilService: PerfilService) { }
 
   ngOnInit() {
+    this.perfilService.getTip()
+      .subscribe((tip) => {
+        this.tip = tip.slip.advice;
+      });
   }
 
 }
